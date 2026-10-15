@@ -4,8 +4,10 @@ const path = require('node:path/posix')
 const fs = require('node:fs')
 
 
+
 const indexRouter = Router();
 
+const errPath = path.join(__dirname, '../404.html')
 const indexPath = path.join(__dirname,   '../index.html')
 const contactPath = path.join(__dirname, '../contact.html')
 const aboutPath = path.join(__dirname,   '../about.html')
